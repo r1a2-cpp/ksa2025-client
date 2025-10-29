@@ -4,3 +4,32 @@ body{
   margin: 0;
   padding: 20px;
 }
+.container{
+  background: white;
+  border-radius: 10px;
+  margin: 0;
+  padding: 20px;
+}
+.header-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.add-form{
+  display: flex;
+  gap: 10px;
+}
+.add-form input{
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-form button{
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

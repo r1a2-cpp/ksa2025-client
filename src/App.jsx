@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className='header-row'>
+        <div className="header-row">
           <h2>Candidate Dashborad</h2>
           <form className="add-form">
             <input 
@@ -35,8 +35,25 @@ function App() {
             <button>Add Candidate</button>
           </form>
         </div>
-      </div>
-      <div>
+
+        <div className="summary-cards full-witdh">
+          <div className="card">Total<span>10</span></div>
+          <div className="card">Medical<span>10</span></div>
+          <div className="card">Mofa<span>10</span></div>
+          <div className="card">Visa<span>10</span></div>
+          <div className="card">Manpower<span>10</span></div>
+          <div className="card">Flight<span>10</span></div>
+          <div className="card">Complete<span>10</span></div>
+          <div className="card">Cancel<span>10</span></div>
+        </div>
+        <div className='sort-section'>
+          <label>Sort by</label>
+          <select>
+            <option>Newest First</option>
+            <option>Oldest First</option>
+          </select>
+        </div>
+
         <table>
           <thead>
             <tr>
