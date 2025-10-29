@@ -8,6 +8,34 @@ function App() {
 
   return (
     <>
+      <div className="container">
+        <div className='header-row'>
+          <h2>Candidate Dashborad</h2>
+          <form className="add-form">
+            <input 
+              type="number"
+              name="sl"
+              placeholder="SL"
+            />
+            <input 
+              type="text"
+              name="fullname"
+              placeholder="Full Name"
+            />
+            <input 
+              type="text"
+              name="passport"
+              placeholder="Passport"
+            />
+            <input 
+              type="text"
+              name="agent"
+              placeholder="Agent"
+            />
+            <button>Add Candidate</button>
+          </form>
+        </div>
+      </div>
       <div>
         <table>
           <thead>
