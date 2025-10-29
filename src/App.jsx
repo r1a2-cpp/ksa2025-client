@@ -9,7 +9,13 @@ function App() {
   return (
     <>
       <div>
-        <p>hello</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Sl</th>
+            </tr>
+          </thead>
+        </table>
       </div>
     </>
   )
