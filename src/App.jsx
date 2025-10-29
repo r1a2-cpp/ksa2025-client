@@ -30,20 +30,22 @@ function App() {
           </thead>
           <tbody>
             <tr>
-              <th>1</th>
-              <th>Riajul Islam</th>
-              <th>A123456</th>
-              <th>10/29/2025</th>
-              <th>Rahman</th>
-              <th>FIT</th>
-              <th>OK</th>
-              <th>OK</th>
-              <th>OK</th>
-              <th>OK</th>
-              <th>OK</th>
-              <th>OK</th>
-              <th>COMPLEATE</th>
-              <th>❌</th>
+              <td>1</td>
+              <td>Riajul Islam</td>
+              <td>A123456</td>
+              <td>10/29/2025</td>
+              <td>Rahman</td>
+              <td>FIT</td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>COMPLEATE</td>
+              <td><button>
+                  ✖
+                </button></td>
             </tr>
           </tbody>
         </table>
