@@ -35,7 +35,7 @@ function App() {
           </form>
         </div>
         <div className="summary-cards full-width">
-          <div className="card">Total<span>10</span></div>
+          <div className="card">Total<span>{candidates.length}</span></div>
           <div className="card">Medical<span>10</span></div>
           <div className="card">Visa<span>10</span></div>
           <div className="card">Manpower<span>10</span></div>
