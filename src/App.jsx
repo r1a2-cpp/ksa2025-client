@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import candidates from './data/candidate.json';
 import './App.css'
 
 function App() {
@@ -72,24 +71,27 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>RIAJUL ISLAM</td>
-              <td>A123456</td>
-              <td>10/19/2025</td>
-              <td>RAHMAN</td>
-              <td>FIT</td>
-              <td>OK</td>
-              <td>OK</td>
-              <td>OK</td>
-              <td>OK</td>
-              <td>OK</td>
-              <td>OK</td>
-              <td>COMPLEATE</td>
+            {candidates.map((item)=>(
+              <tr key={item.SL}>
+                <td>{item.SL}</td>
+                <td>{item.NAME}</td>
+                <td>{item.PASSPORT}</td>
+                <td>{item['RECIVED DATE']}</td>
+                <td>{item.AGENT}</td>
+                <td>{item.MEDICAL}</td>
+                <td>{item.MOFA}</td>
+                <td></td>
+                <td>{item.FINGER}</td>
+                <td>{item.VISA}</td>
+                <td>{item.MANPOWER}</td>
+                <td>{item.FLIGHT}</td>
+                <td></td>
+                
               <td>
                 <button className="edit-btn">✎</button>
               </td>
             </tr>
+            ))}
           </tbody>
         </table>
 
